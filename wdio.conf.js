@@ -18,6 +18,8 @@ exports.config = {
     //
     specs: [
         './test/specs/**/*.js'
+        // './test/specs/chai.js'
+
     ],
     // Patterns to exclude.
     exclude: [
