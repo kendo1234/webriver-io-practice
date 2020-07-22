@@ -5,8 +5,19 @@ import WatchPage from '../pages/watch.page';
 
 describe('Watches Page', () => {
 
-    it('should show the category carousel', () => {
+    before(() => {
         WatchPage.open();
+    });
+
+    after(() => {
+        browser.url('https://ebay.com');
+    });
+
+    afterEach(() => {
+        browser.refresh();
+    });
+
+    it('should show the category carousel', () => {
         expect(WatchPage.categoryCarousel).toBeDisplayed();
     });
     
