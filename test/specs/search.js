@@ -1,4 +1,5 @@
 import SearchPage from '../pages/search.page'
+import resources from '../resources';
 
 describe('Search Product - Ebay', () => {
     it('Should open the main url and verify page title', () => {
@@ -14,7 +15,7 @@ describe('Search Product - Ebay', () => {
     })
 
     it('should redirect to new page and verify title', () => {
-        expect(browser).toHaveTitle('Laptop | eBay');
+        expect(browser).toHaveTitle(resources.laptopTitle);
 
     })
 })

@@ -1,6 +1,7 @@
 import { expect as chaiExpect } from 'chai';
 import WatchPage from '../pages/watch.page';
 import watchPage from '../pages/watch.page';
+import { waitAndClick } from '../utilities/helper';
 
 
 
@@ -9,8 +10,8 @@ describe('Watches Page', () => {
     before(() => {
         WatchPage.open();
         // WatchPage.fashionLink.moveTo();
-        // WatchPage.watchesLink.waitForDisplayed({timeout: 1000});
-        // WatchPage.watchesLink.click();
+        //waitAndClick(WatchPage.fashionLink, 5000)
+    
     });
 
     after(() => {

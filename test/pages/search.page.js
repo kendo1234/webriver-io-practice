@@ -11,7 +11,7 @@ get searchButton() {
 }
 
     open() {
-        super.open('https://www.ebay.co.uk')
+        super.open('/')
     }
 
 }
