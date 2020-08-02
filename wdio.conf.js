@@ -52,7 +52,12 @@ exports.config = {
         'goog:chromeOptions': {
           args: ['headless', 'disable-gpu'],
         },
-      }],
+        
+      },
+    {
+        browserName: 'firefox',
+    },
+    ],
     
     //
     // ===================
