@@ -29,7 +29,7 @@ class WatchPage extends Page {
 
 open() {
     super.open('https://www.ebay.co.uk/b/Watches-Parts-Accessories/260324/bn_1665321');
-    // super.open('https://www.ebay.co.uk/');
+    // super.open('/');
 
     }
 }
