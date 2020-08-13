@@ -47,6 +47,10 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
+# Reporting
+allure-report/
+allure-results/
+
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
@@ -118,5 +122,7 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+
 
 # End of https://www.toptal.com/developers/gitignore/api/node,code

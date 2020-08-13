@@ -1,7 +1,11 @@
 import SearchPage from '../pages/search.page'
+import allureReporter from '@wdio/allure-reporter'
+
 
 describe('Search Product - Ebay', () => {
     it('Should open the main url and verify page title', () => {
+        allureReporter.addFeature('Ebay Search Scenario Feature');
+        allureReporter.addSeverity('Critical');
         SearchPage.open();
         expect(browser).toHaveTitle('Electronics, Cars, Fashion, Collectibles & More | eBay');
     })
