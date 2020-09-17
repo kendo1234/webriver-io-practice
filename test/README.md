@@ -4,3 +4,8 @@ Current Tests (located in spec folder):
 
 - Basic - assert a title
 - Search - search a product on eBay and assert the title of the result page
+
+
+Example BS run with creds - 
+
+*USERNAME* BROWSERSTACK_ACCESS_KEY=*ACCESS KEY* npx wdio
